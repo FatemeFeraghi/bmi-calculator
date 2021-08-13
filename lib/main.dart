@@ -8,8 +8,8 @@ class BMIApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       theme: ThemeData.dark().copyWith(
-        primaryColor: Color(0xFF293B5F),
-        scaffoldBackgroundColor: Color(0xFF293B5F),
+        primaryColor: Color(0xFF1D2D50),
+        scaffoldBackgroundColor: Color(0xFF1D2D50),
       ),
       home: InputPage(),
     );
